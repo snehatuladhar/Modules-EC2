@@ -9,13 +9,16 @@ variable "instance" {
 
 
 variable "network-security-group-name" {
-
+  description = "The name of the network security group."
+  type        = string
 }
 
 variable "subnet_id" {
-
+  description = "The subnet ID to launch the instance in."
+  type        = string
 }
 
 variable "vpc_id"{
-    
+  description = "The VPC ID to launch the instance in."
+  type        = string   
 }
