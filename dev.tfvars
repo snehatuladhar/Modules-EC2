@@ -1,0 +1,6 @@
+network_security_group_name = "nsg-inbound1"
+instance_type               = "t2.micro"
+ami_id                      = "ami-08a0d1e16fc3f61ea"
+subnet_id                   = "subnet-0639d260294d92a5d"
+vpc_id                      = "vpc-03d964f7cd3fa2c74"
+key_name                    = "amisneha"
